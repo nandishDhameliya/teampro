@@ -1,6 +1,5 @@
 import React from "react";
 import "../style/home.css";
-import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -177,6 +176,27 @@ const Home = () => {
         </div>
         <div className="blog_btn_main">
           <button className="blog_btn">Browse all posts</button>
+        </div>
+      </div>
+      <div className="for">
+        <div className="for_texties">
+          <div className="for_text_main">FOR WHOLESALERS</div>
+          <div className="for_text_dis">
+            We offer loose tea leaves of the best quality for your business.
+            With a choice of more than 450 different kinds of loose tea, we can
+            make a sophisticated selection that fits exactly in your kind of
+            establishment.
+          </div>
+          <div className="for_btn_main">
+            <button className="for_btn">Get A Free Consultation</button>
+          </div>
+        </div>
+        <div>
+          <img
+            src="https://images.unsplash.com/photo-1576092768241-dec231879fc3?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Tea"
+            className="for_imgs_img"
+          />
         </div>
       </div>
     </>
