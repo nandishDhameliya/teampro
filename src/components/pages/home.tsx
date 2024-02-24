@@ -199,6 +199,94 @@ const Home = () => {
           />
         </div>
       </div>
+      <div className="footer">
+        <div className="footer_links">
+          <div className="footer_main_heading">Collections</div>
+          <div className="link_list">
+            <li className="list_li">
+              <a>Black teas</a>
+            </li>
+            <li className="list_li">
+              <a>Green teas</a>
+            </li>
+            <li className="list_li">
+              <a>White teas</a>
+            </li>
+            <li className="list_li">
+              <a>Herbal teas</a>
+            </li>
+            <li className="list_li">
+              <a>Matcha</a>
+            </li>
+            <li className="list_li">
+              <a>Chai</a>
+            </li>
+            <li className="list_li">
+              <a>Oolong</a>
+            </li>
+            <li className="list_li">
+              <a>Rooibos</a>
+            </li>
+            <li className="list_li">
+              <a>Teaware</a>
+            </li>
+          </div>
+        </div>
+        <div className="footer_links">
+          <div className="footer_links">
+            <div className="footer_main_heading">Learn</div>
+          </div>
+          <div className="link_list">
+            <li className="list_li">
+              <a>About us</a>
+            </li>
+            <li className="list_li">
+              <a>About our teas </a>
+            </li>
+            <li className="list_li">
+              <a>Tea academy</a>
+            </li>
+          </div>
+        </div>
+        <div className="footer_links">
+          <div className="footer_links">
+            <div className="footer_main_heading">Customer Service</div>
+            <div className="link_list">
+              <li className="list_li">
+                <a>Ordering and payment </a>
+              </li>
+              <li className="list_li">
+                <a>Delivery</a>
+              </li>
+              <li className="list_li">
+                <a>Privacy and policy</a>
+              </li>
+              <li className="list_li">
+                <a>Terms & Conditions</a>
+              </li>
+            </div>
+          </div>
+        </div>
+        <div className="footer_links">
+          <div className="footer_links">
+            <div className="footer_main_heading">Contact us</div>
+            <div className="link_list">
+              <li className="list_li">
+                <a>
+                  3 Falahi, Falahi St, Pasdaran Ave, Shiraz, Fars Provieence
+                  Iran
+                </a>
+              </li>
+              <li className="list_li">
+                <a>Email: amoopur@gmail.com</a>
+              </li>
+              <li className="list_li">
+                <a>Tel: +98 9173038406</a>
+              </li>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 };

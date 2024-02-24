@@ -205,6 +205,30 @@
 .for_text_main {
   font-size: 30px;
 }
+.footer{
+  margin-top: 60px;
+  background-color: #f4f4f4;
+  padding: 30px 76px 30px 76px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.footer_main_heading{
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+.link_list{
+  list-style: none;
+  font-weight: 100;
+  max-width: 200px;
+}
+.list_li{
+   margin-bottom: 9px;
+   font-size: 13px;
+   display: flex;
+   cursor: pointer;
+}
 
 @media screen and (max-width: 768px) {
   .image {
@@ -304,6 +328,10 @@
   }
   .for_texties {
     margin-left: 10px;
+  }
+  .footer{
+    padding: 30px 15px 30px 15px;
+    gap: 15px;
   }
 }
 
